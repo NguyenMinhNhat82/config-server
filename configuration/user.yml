@@ -1,0 +1,21 @@
+spring:
+  datasource:
+      url: jdbc:postgresql://localhost:5432/user-sgas
+      username: postgres
+      password: thudan19
+  jpa:
+    hibernate:
+      ddl-auto: update
+  data:
+    redis:
+      host: redis-11349.c29g9.asia-northeast1-1.gce.cloud.redislabs.com
+      port: 11349
+      username: default
+      password: qsOzInB9mvEn0YRL1ofcod9CtUlUqt4B
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  
+  
